@@ -1,0 +1,7 @@
+LinearRegression link:
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
+
+tip:
+R^2 score is not well-defined with less than two samples
+input must be this like ->
+input minimum: 2
