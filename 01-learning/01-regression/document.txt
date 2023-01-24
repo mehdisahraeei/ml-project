@@ -1,7 +1,18 @@
 LinearRegression link:
 https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
 
+------------------------------------------------------------------------------------------------------------
+
 tip:
 R^2 score is not well-defined with less than two samples
 input must be this like ->
-input minimum: 2
+input minimum for testing: 2
+
+
+for example:
+MODELYEAR	MAKE	MODEL	VEHICLECLASS	ENGINESIZE	CYLINDERS	TRANSMISSION	FUELTYPE	FUELCONSUMPTION_CITY	
+FUELCONSUMPTION_HWY	FUELCONSUMPTION_COMB	FUELCONSUMPTION_COMB_MPG	CO2EMISSIONS
+
+2014	ACURA	ILX	COMPACT	2	4	AS5	Z	9.9	6.7	8.5	33	197
+2014	ACURA	ILX	COMPACT	2.4	4	M6	Z	11.2	7.7	9.6	29	222
+
