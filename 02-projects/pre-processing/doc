@@ -1,0 +1,30 @@
+
+exploration
+
+
+#groupby is used for grouping the data points 
+
+pdf.groupby(['cluster_','type'])['cluster_'].count()
+
+cluster_  type
+0         0.0     16
+          1.0      2
+1         0.0     12
+          1.0     11
+2         0.0     27
+          1.0      5
+3         0.0      1
+          1.0      6
+4         0.0     31
+          1.0      5
+5         0.0      1
+Name: cluster_, dtype: int64
+
+
+
+
+
+
+
+agg_cars = pdf.groupby(['cluster_','type'])['horsepow','engine_s','mpg','price'].mean()
+agg_cars
